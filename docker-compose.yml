@@ -1,0 +1,9 @@
+version: '3'
+services:
+  tool:
+    build: .
+    volumes:
+      - ./wma:/wma
+      - ./test:/test
+      - ./mp3:/mp3
+      - .:/code
